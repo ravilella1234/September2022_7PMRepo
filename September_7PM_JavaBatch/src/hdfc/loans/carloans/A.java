@@ -1,10 +1,9 @@
 package hdfc.loans.carloans;
 
+import hdfc.loans.personalloans.C;
+
 public class A 
 {
-	
-	public int x = 100;
-	
 	public void m1()
 	{
 		System.out.println("iam m1 from A");
@@ -14,7 +13,11 @@ public class A
 	{
 		A a = new A();
 		a.m1();
-		System.out.println(a.x);
+		
+		A obj = new C();
+		obj.m1();
+		
+		//C obj1 = new A();
 	}
 
 }

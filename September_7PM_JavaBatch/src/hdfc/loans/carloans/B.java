@@ -1,6 +1,6 @@
 package hdfc.loans.carloans;
 
-public class B extends A
+public class B extends A // ISA Relationship
 {
 	
 	public void m2()
@@ -10,14 +10,13 @@ public class B extends A
 
 	public static void main(String[] args) 
 	{
-		A a = new A();
+		
+		A a = new A(); // HASA Relationship
 		a.m1();
-		System.out.println(a.x);
 		
 		B b = new B();
 		b.m2();
 		b.m1();
-		System.out.println(b.x);
 	}
 
 }
