@@ -1,9 +1,10 @@
 package hdfc.loans.personalloans;
 class Parent
 {
-	public void workHard()
+	public Number workHard()
 	{
 		System.out.println("PARENT : wakeup early, goto college");
+		return 0;
 	}
 	
 	public void care()
@@ -14,9 +15,10 @@ class Parent
 
 public class CChild extends Parent
 {
-	public void workHard()
+	public strictfp Number workHard()
 	{
 		System.out.println("CHILD : wakeup anytime, goto movie");
+		return 0;
 	}
 	
 	public void love()
