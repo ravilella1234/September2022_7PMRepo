@@ -27,7 +27,11 @@ public class ExceptionDemo
 			catch (Exception e) 
 			{
 				e.printStackTrace();
-			}			
+			}
+			finally 
+			{
+				System.out.println("iam final Block....");
+			}
 		}
 	}
 
