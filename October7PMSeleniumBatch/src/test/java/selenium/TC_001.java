@@ -9,11 +9,8 @@ public class TC_001 extends BaseTest
 		
 		launch("chromebrowser");
 		
-		navigateUrl("amazonurl");
+		navigateUrl("iciciurl");
 		
-		Thread.sleep(4000);
-		
-		navigateUrl("bestbuyurl");
 	}
 
 }
