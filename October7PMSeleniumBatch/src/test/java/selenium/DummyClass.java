@@ -2,7 +2,9 @@ package selenium;
 
 public class DummyClass {
 
-	int a,b,c;
+
+	int x,y,z;
+
 	
 	public static void main(String[] args) 
 	{
